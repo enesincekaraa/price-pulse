@@ -1,0 +1,9 @@
+POST http://localhost:8080/api/v1/simulations/price-update
+Content-Type: application/json
+
+{
+  "sku": "BALATA-001",
+  "newBasePrice": 150.00,
+  "profitMargin": 20.0,
+  "taxRate": 20.0
+}
